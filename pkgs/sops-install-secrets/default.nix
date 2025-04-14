@@ -3,7 +3,7 @@
   buildGoModule,
   stdenv,
   vendorHash,
-  go,
+  go_1_23,
 }:
 buildGoModule {
   pname = "sops-install-secrets";
